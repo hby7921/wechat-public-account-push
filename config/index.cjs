@@ -6,11 +6,8 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-  
-
-
-
-  // 使用微信测试号：公众号APP_ID
+    MAX_PUSH_ONE_MINUTE: 10,
+ // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx1998a67b7c3fc92f',
 
   // 使用微信测试号：公众号APP_SECRET
@@ -18,7 +15,11 @@ const USER_CONFIG = {
 
   PROVINCE: '黑龙江',
   CITY: '哈尔滨',
-
+SWITCH: {
+   weather: true,
+  earthyLoveWords: true,
+  horoscope: true,
+},
   USERS: [
     {
       // 想要发送的人的名字
