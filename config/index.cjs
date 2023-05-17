@@ -15,12 +15,12 @@ const USER_CONFIG = {
   // 使用微信测试号时才需要填写：公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: '',
+  APP_ID: 'wx1998a67b7c3fc92f',
 
   // 使用微信测试号时才需要填写：公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '',
+  APP_SECRET: '8f799ebc3fbfb561bc86d1ec23cdb518',
   
   // 为了避免推送服务器误将脚本列为恶意推送脚本，可设置每分钟脚本最大推送数
   // 每分钟脚本最大推送数，超过此数将会休眠1分钟后再发送剩余消息，不填则默认为5
@@ -34,63 +34,20 @@ const USER_CONFIG = {
     /** 每日天气 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     weather: true,
-
-    /** 节假日 */
-    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    holidaytts: false,
-
-    /** 每日N句 */
-    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    CIBA: false,
-    
-    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    oneTalk: false,
     
     // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     earthyLoveWords: true,
     
-    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: false,
-    
-    // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poisonChickenSoup: false,
-    
-    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poetry: false,
-
     /** 星座运势 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     horoscope: true,
-  
-    /** 生日消息和节日消息 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    birthdayMessage: false,
   
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     courseSchedule: false,
   },
   
-  TIAN_API: {
-    // 天行API KEY，如果使用天行API则需要填写此项
-    key: '',
-    
-    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
-    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    morningGreeting: false,
-  
-    // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    eveningGreeting: false,
-  
-    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: 3,
-  
-    // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 3,
-  
-    // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
-    networkHotType: 'default',
-  },
+ 
   
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
