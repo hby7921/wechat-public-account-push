@@ -23,11 +23,11 @@ SWITCH: {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '宝贝','宝贝2
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oOVD66bK9EJ9auilsecpUihaQ18U',
+      id: 'oOVD66bK9EJ9auilsecpUihaQ18U','oOVD66bK9EJ9auilsecpUihaQ18U'
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'GE4KyELsTnXWPmLq_oy01y2wVhQhvalX4oXSN56MIWw',
+      useTemplateId: 'GE4KyELsTnXWPmLq_oy01y2wVhQhvalX4oXSN56MIWw','GE4KyELsTnXWPmLq_oy01y2wVhQhvalX4oXSN56MIWw'
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-19',
         festivals: [
@@ -38,24 +38,7 @@ SWITCH: {
       type: '节日', name: '亲亲老公生日', year: '2002', date: '01-04',
     }
       ],
-        USERS: [
-    {
-      // 想要发送的人的名字
-      name: '宝贝2',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oOVD66bK9EJ9auilsecpUihaQ18U',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'GE4KyELsTnXWPmLq_oy01y2wVhQhvalX4oXSN56MIWw',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '07-19',
-        festivals: [
-        {
-          type: '节日', name: '亲亲老婆生日', year: '2004', date: '07-19',
-        },
-            {
-      type: '节日', name: '亲亲老公生日', year: '2002', date: '01-04',
-    }
-      ],
+       
       
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
