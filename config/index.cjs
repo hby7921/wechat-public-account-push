@@ -27,7 +27,7 @@ SWITCH: {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oOVD66bK9EJ9auilsecpUihaQ18U',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'vGA7npZ1lvAmM68H27aerm45fjBIpc_OlYJSqnoPt8A',
+      useTemplateId: 'TEr4PSSKzBksuzozpw1soqNGeyEN7f1mpffW1ymTN4w',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-19',
         festivals: [
@@ -40,7 +40,7 @@ SWITCH: {
           type: '生日', name: '李四', year: '1996', date: '09-31',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '亲亲老婆的生日', year: '2004', date: '07-19',
         },
       ],
       
@@ -56,7 +56,7 @@ SWITCH: {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'vGA7npZ1lvAmM68H27aerm45fjBIpc_OlYJSqnoPt8A',
+  CALLBACK_TEMPLATE_ID: 'TEr4PSSKzBksuzozpw1soqNGeyEN7f1mpffW1ymTN4w',
 
   CALLBACK_USERS: [
     {
