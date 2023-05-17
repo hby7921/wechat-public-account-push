@@ -6,7 +6,7 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-  
+USE_PASSAGE: 'wechat-test',  
 
 
 
@@ -18,7 +18,8 @@ const USER_CONFIG = {
 
   PROVINCE: '黑龙江',
   CITY: '哈尔滨',
-
+  earthyLoveWords: true,
+  horoscope: true,
   USERS: [
     {
       // 想要发送的人的名字
