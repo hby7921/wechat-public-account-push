@@ -25,9 +25,9 @@ SWITCH: {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oOVD66UrbRH_iFxH2PbOFlUy3wy0',
+      id: 'oOVD66bK9EJ9auilsecpUihaQ18U',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TEr4PSSKzBksuzozpw1soqNGeyEN7f1mpffW1ymTN4w',
+      useTemplateId: '1yfbkmAMm1MBr0-tIz2rDhnGDwH6oA7avZC41ERCBtc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-19',
         festivals: [
@@ -40,8 +40,11 @@ SWITCH: {
           type: '生日', name: '李四', year: '1996', date: '09-31',
         },
         {
-          type: '节日', name: '亲亲老婆的生日', year: '2004', date: '07-19',
+          type: '节日', name: '亲亲老婆生日', year: '2004', date: '07-19',
         },
+            {
+      type: '节日', name: '亲亲老公生日', year: '2002', date: '01-04',
+    }
       ],
       
       // 我们在一起已经有xxxx天了的配置
@@ -56,7 +59,7 @@ SWITCH: {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'TEr4PSSKzBksuzozpw1soqNGeyEN7f1mpffW1ymTN4w',
+  CALLBACK_TEMPLATE_ID: '1yfbkmAMm1MBr0-tIz2rDhnGDwH6oA7avZC41ERCBtc',
 
   CALLBACK_USERS: [
     {
