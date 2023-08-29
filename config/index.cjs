@@ -44,6 +44,9 @@ SWITCH: {
             {
       type: '节日', name: '亲亲老公生日', year: '2002', date: '01-04',
     }
+            {
+          type: '节日', name: '纪念日', year: '2023', date: '05-14',
+        },
       ],
        
       
@@ -52,7 +55,7 @@ SWITCH: {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-05-14' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2023-05-14' },
       ],
     },
   ],
