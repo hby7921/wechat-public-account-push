@@ -23,9 +23,12 @@ SWITCH: {
      TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: 'd459d88391e588c09c089874d51d3bdd',
-    
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
-
+    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    morningGreeting: true,
+    // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    networkHot: 3,
+         tips: true，
   },
   USERS: [
     {
