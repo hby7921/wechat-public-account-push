@@ -27,7 +27,7 @@ SWITCH: {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oOVD66bK9EJ9auilsecpUihaQ18U',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'T-Ath580dh1uOqC82Z8FVXSBQ_XFLITAECjzCb2eAYE',
+      useTemplateId: 'lMrMlvPjPSpaWpXIcsEdjUoR2wEGAIzYhJNF1IZ99Ls',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-19',
         festivals: [
