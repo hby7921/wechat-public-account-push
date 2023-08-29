@@ -24,8 +24,6 @@ SWITCH: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: 'd459d88391e588c09c089874d51d3bdd',
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
-    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    morningGreeting: true,
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     networkHot: 3,
   },
@@ -36,7 +34,7 @@ SWITCH: {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oOVD66bK9EJ9auilsecpUihaQ18U',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Q5uUReJsB8bsF9d6j87RGDx5Kha-THS0FhFjUd_sboo',
+      useTemplateId: 'YCcqDZTe-Z_xY6IwJWM6RFbPbn6aD0O8zwjyPxSkatc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-19',
         festivals: [
