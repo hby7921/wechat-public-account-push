@@ -28,7 +28,6 @@ SWITCH: {
     morningGreeting: true,
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
     networkHot: 3,
-         weather_tips : true，
   },
   USERS: [
     {
