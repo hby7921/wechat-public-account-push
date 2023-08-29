@@ -45,7 +45,7 @@ SWITCH: {
       type: '节日', name: '亲亲老公生日', year: '2002', date: '01-04',
     }
             {
-          type: '节日', name: '纪念日', year: '2023', date: '05-14',
+          type: '节日', name: '我们的纪念日', year: '2023', date: '05-14',
         },
       ],
        
