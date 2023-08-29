@@ -20,6 +20,13 @@ SWITCH: {
   earthyLoveWords: true,
   horoscope: true,
 },
+     TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: 'd459d88391e588c09c089874d51d3bdd',
+    
+    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+
+  },
   USERS: [
     {
       // 想要发送的人的名字
@@ -27,7 +34,7 @@ SWITCH: {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oOVD66bK9EJ9auilsecpUihaQ18U',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'JoZR58ojcuKm82Y3UTJv6prESH1YZWzsCEmmRQDDvlY',
+      useTemplateId: 'Y4ylohDXuKkT8BsRQqXI9NFzng_xxOJZQfr5S6ZAVOU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-19',
         festivals: [
